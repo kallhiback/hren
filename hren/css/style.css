@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.survey-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.question {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.options {
+    margin-bottom: 20px;
+}
+.option {
+    margin-bottom: 10px;
+}
+.other-option {
+    display: flex;
+    align-items: center;
+}
+.other-option input[type="text"] {
+    margin-left: 5px;
+}
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 30px;
+}
